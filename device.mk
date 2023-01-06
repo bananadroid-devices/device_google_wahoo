@@ -219,6 +219,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610
 
+# Skia tracing
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.hwui.skia_atrace_enabled=false
+
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.rotator_downscale=1
