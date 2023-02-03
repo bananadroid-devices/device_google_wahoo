@@ -397,6 +397,10 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.1-service \
     com.android.nfc_extras
 
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+
 PRODUCT_PACKAGES += \
     SecureElement
 
