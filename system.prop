@@ -67,3 +67,6 @@ persist.data.mode=concurrent
 # Soc
 ro.soc.manufacturer=Qualcomm
 ro.soc.model=MSM8998
+
+# Graphics
+ro.hwui.render_ahead=10
