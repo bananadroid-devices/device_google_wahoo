@@ -26,11 +26,9 @@ PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
 
 PRODUCT_SOONG_NAMESPACES += \
     device/google/wahoo \
-    vendor/google/camera \
     hardware/google/camera \
     hardware/google/interfaces \
-    hardware/google/pixel \
-    hardware/qcom/msm8998
+    hardware/google/pixel
 
 PRODUCT_COPY_FILES += \
     device/google/wahoo/default-permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/default-permissions.xml \
