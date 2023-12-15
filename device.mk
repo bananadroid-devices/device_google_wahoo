@@ -229,6 +229,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.inputopts.movetouchslop=0.6 \
     ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 
+# AutoSingleLayer
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.auto_latch_unsignaled=true
+
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.rotator_downscale=1
