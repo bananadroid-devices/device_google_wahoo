@@ -1,7 +1,7 @@
 [
    {
-     "repository": "kernel_google_wahoo",
-     "target_path": "kernel/google/wahoo"
+     "repository":"kernel_google_wahoo",
+     "target_path":"kernel/google/wahoo"
    },
    {
      "repository":"asriadirahim/packages_apps_googlecamera",
@@ -14,5 +14,11 @@
     "target_path":"packages/apps/ElmyraService",
     "remote":"github",
     "branch":"lineage-21.0"
+   },
+   {
+     "repository":"asriadirahim/vendor_firmware",
+     "target_path":"vendor/firmware",
+     "remote":"gitlab",
+     "branch":"udc"
    }
 ]
