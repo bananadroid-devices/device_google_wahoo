@@ -63,5 +63,5 @@ persist.data.netmgrd.qos.enable=true
 persist.data.mode=concurrent
 
 # Soc
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=MSM8998
