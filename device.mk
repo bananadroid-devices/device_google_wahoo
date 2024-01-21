@@ -231,7 +231,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # AutoSingleLayer
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.auto_latch_unsignaled=true
+    debug.sf.auto_latch_unsignaled=0
 
 # b/73640835
 PRODUCT_PROPERTY_OVERRIDES += \
