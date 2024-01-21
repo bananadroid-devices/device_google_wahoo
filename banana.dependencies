@@ -10,15 +10,21 @@
      "branch":"thirteen"
    },
    {
-    "repository":"android_packages_apps_ElmyraService",
-    "target_path":"packages/apps/ElmyraService",
-    "remote":"github",
-    "branch":"lineage-21.0"
+     "repository":"android_packages_apps_ElmyraService",
+     "target_path":"packages/apps/ElmyraService",
+     "remote":"github",
+     "branch":"lineage-21.0"
    },
    {
      "repository":"asriadirahim/vendor_firmware",
      "target_path":"vendor/firmware",
      "remote":"gitlab",
      "branch":"udc"
+   },
+   {
+     "repository":"Google-Pixel2-2XL/packages_apps_ViMusic",
+     "target_path":"packages/apps/ViMusic",
+     "remote":"github",
+     "branch":"main"
    }
 ]
