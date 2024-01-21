@@ -405,6 +405,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ElmyraService
 
+# ViMusic
+PRODUCT_PACKAGES += \
+    ViMusic
+
 # NowPlayingOverlay
 PRODUCT_PACKAGES += \
     NowPlayingOverlay

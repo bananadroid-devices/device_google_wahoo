@@ -8,5 +8,11 @@
     "target_path":"packages/apps/ElmyraService",
     "remote":"github",
     "branch":"lineage-21.0"
+   },
+   {
+     "repository":"Google-Pixel2-2XL/packages_apps_ViMusic",
+     "target_path":"packages/apps/ViMusic",
+     "remote":"github",
+     "branch":"main"
    }
 ]
