@@ -189,6 +189,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-service.wahoo
 
+# Enforce privapp-permissions whitelist
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions?=enforce
+
 # Radio Hal
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.1.vendor \
